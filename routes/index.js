@@ -24,5 +24,6 @@ function getClientIp(req) {
  */
 
 exports.index = function(req, res) {
-  res.end('Hello World');  
+  // res.end('Hello World');  
+  res.render('index', { title: 'Express' });
 };
